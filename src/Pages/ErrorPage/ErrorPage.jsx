@@ -1,9 +1,9 @@
-import React from 'react';
+import error from '../../assets/error.jpg'
 
 const ErrorPage = () => {
     return (
-        <div>
-            error page
+        <div className="h-[90vh] flex justify-center items-center">
+            <img src={error} alt="Error Image is missing" />
         </div>
     );
 };
